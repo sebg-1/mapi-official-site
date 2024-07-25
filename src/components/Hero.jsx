@@ -1,4 +1,4 @@
-import { curve, heroBackground, robot } from "../assets";
+import { background, curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+          Te ayudo a tener el cabello {` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+            sano, largo, bonito y abundante{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,11 +36,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            Descubre tu verdadero potencial y mejora tu calidad de vida. Prueba hoy nuestra masterclass gratuita.
           </p>
           <Button href="/pricing" white>
-            Get started
+            Comienza hoy
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -82,7 +81,7 @@ const Hero = () => {
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
-              src={heroBackground}
+              src={mapi-background2}
               className="w-full"
               width={1440}
               height={1800}

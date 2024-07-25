@@ -39,33 +39,32 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "¿Quién soy?",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "En qué creemos",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Masterclass Gratuita",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Programas",
     url: "#roadmap",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
+    title: "Mapisinalopecia",
+    url: "#roadmap",
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Contacto",
     url: "#login",
     onlyMobile: true,
   },
