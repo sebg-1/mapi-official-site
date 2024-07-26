@@ -19,6 +19,7 @@ import {
   notification4,
   notion,
   photoshop,
+  play,
   plusSquare,
   protopie,
   raindrop,
@@ -34,6 +35,8 @@ import {
   telegram,
   twitter,
   yourlogo,
+  healing,
+  online
 } from "../assets";
 
 export const navigation = [
@@ -70,7 +73,7 @@ export const navigation = [
   },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [healing, online];
 
 export const notificationImages = [notification4, notification3, notification2];
 

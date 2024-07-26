@@ -3,6 +3,8 @@ import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
+import healing from "./healing-round-24px.svg"
+import online from "./onlineClass.svg"
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
 import grid from "./grid.png";
@@ -18,7 +20,7 @@ import recording01 from "./recording-01.svg";
 import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
-import loading from "./loading.png";
+import loading from "./loading.svg";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
@@ -144,4 +146,6 @@ export {
   instagram,
   telegram,
   twitter,
+  healing,
+  online
 };
