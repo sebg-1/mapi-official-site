@@ -31,7 +31,7 @@ const Hero = () => {
               largo,
             </span>
             <span className="inline-block relative" style={{ color: '#955AFA' }}> {/* <-- Cambio: Asegúrate de que sea `inline` */}
-              bonito
+              bonito&nbsp;
             </span>
             <span className="inline-block relative" style={{ color: '#F081C9' }}> {/* <-- Cambio: Asegúrate de que sea `inline` */}
               y abundante.
@@ -44,9 +44,11 @@ const Hero = () => {
               height={28}
               alt="Curve" />
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8" style={{ color: '#FF69B4' }}>
-            Descubre tu verdadero potencial y mejora tu calidad de vida. Prueba hoy nuestra masterclass gratuita.
-          </p>
+          <p className="body-1 max-w-3xl mx-auto mb-6 lg:mb-8" style={{ textShadow: '1px 1px 3px rgba(0, 0, 0, 0.7)' }}>
+  Descubre tu verdadero potencial y mejora tu calidad de vida. Inscríbete hoy a mi masterclass gratuita.
+</p>
+
+
           <Button href="/pricing" white>
             Comienza hoy
           </Button>
